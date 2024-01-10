@@ -14,15 +14,15 @@ Tools software versions are:
 
 ## SETUP
 
-1) Put all the angular files in a folder called, for example, 'angular-ecommerce';
-2) Open the GitHub Repository called 'Ecommerce-springboot-2-of-2' and catch the files, open in a IDE and run the application;
-3) Run all the SQL Script files in the folder 'db-scripts' in, for example, MySql Workbench and run all;
+1) Put all the angular files in a folder called, for example, `angular-ecommerce`;
+2) Open the GitHub Repository called `Ecommerce-springboot-2-of-2` and catch the files, open in a IDE and run the application;
+3) Run all the SQL Script files in this repository in the folder `db-scripts` in, for example, MySql Workbench and run all;
 4) Enjoy this Ecommerce!
 
 ## User credentials for Login
 
-- email: 'ecommerceapp@gmail.com';
-- password: 'angularecommerce';
+- email: `ecommerceapp@gmail.com`;
+- password: `angularecommerce`;
 
 Try to complete an order!
 
@@ -58,7 +58,7 @@ https://stripe.com/docs/testing
 
 ## Development server
 
-Run `npm` for a dev server. Navigate to `https://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `npm` for a dev server. Navigate to [https://localhost:4200/](https://localhost:4200/). The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
