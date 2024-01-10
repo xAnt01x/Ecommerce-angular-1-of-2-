@@ -2,9 +2,63 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.7.
 
+## Versions
+
+Tools software versions are:
+- nvm 0.35.0;
+- npm 7.24.0;
+- node 16.10.0;
+- tsc 4.6.4;
+- Angular 14;
+- Spring Boot 2.7.1;
+
+## SETUP
+
+1) Put all the angular files in a folder called, for example, 'angular-ecommerce';
+2) Open the GitHub Repository called 'Ecommerce-springboot-2-of-2' and catch the files, open in a IDE and run the application;
+3) Run all the SQL Script files in the folder 'db-scripts' in, for example, MySql Workbench and run all;
+4) Enjoy this Ecommerce!
+
+## User credentials for Login
+
+email: ecommerceapp@gmail.com
+password: angularecommerce
+
+Try to complete an order!
+
+## Testing Credit Card Payments:
+
+- Number = 4242 4242 4242 4242
+- CVC = Any 3 digits
+- Expiration Date = Any future date
+- Result = SUCCESS
+
+--------------------
+
+- Number = 4000 0000 0000 0002
+- CVC = Any 3 digits
+- Expiration Date = Any future date
+- Result = CARD DECLINED
+
+--------------------
+
+- Number = 4000 0000 0000 9995
+- CVC = Any 3 digits
+- Expiration Date = Any future date
+- Result = CARD DECLINED - INSUFFICIENT FUNDS
+
+--------------------
+
+- Number = 4000 0000 0000 9979
+- CVC = Any 3 digits
+- Expiration Date = Any future date
+- Result = CARD DECLINED - STOLEN CARD
+
+https://stripe.com/docs/testing
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `npm` for a dev server. Navigate to `https://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
