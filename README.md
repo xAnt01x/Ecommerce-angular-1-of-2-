@@ -58,7 +58,7 @@ https://stripe.com/docs/testing
 
 ## Development server
 
-Run `npm` for a dev server. Navigate to [https://localhost:4200/](https://localhost:4200/). The application will automatically reload if you change any of the source files.
+Run `npm start` for a dev server. Navigate to [https://localhost:4200/](https://localhost:4200/). The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
