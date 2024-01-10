@@ -21,8 +21,8 @@ Tools software versions are:
 
 ## User credentials for Login
 
-email: ecommerceapp@gmail.com
-password: angularecommerce
+- email: 'ecommerceapp@gmail.com';
+- password: 'angularecommerce';
 
 Try to complete an order!
 
